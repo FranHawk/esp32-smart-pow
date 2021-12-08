@@ -4,7 +4,8 @@
 #include <iostream>
 
 const char *host = "api.seniverse.com";
-const char *privateKey = "S2NDygWtgomBo45Xe";
+/*privateKey改成自己的*/
+const char *privateKey = "XXXXXXXXXX"; 
 const char *city = "wuhan";
 const char *language = "zh-Hans";
 
