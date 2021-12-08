@@ -1,4 +1,4 @@
-﻿﻿﻿﻿# 前言
+﻿﻿﻿﻿﻿# 前言
 
 本文的目的是为了给将要制作的ESP32手环做技术储备
 
@@ -98,7 +98,7 @@ pcb板嘉立创生产
 
 ![image-20211208124108739](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124108739.png)
 
-WIFI配网界面
+WIFI配网界面(功能和界面有待完善)
 
 ![image-20211208124121055](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124121055.png)
 
