@@ -43,6 +43,22 @@ pcb板嘉立创生产
 
 外壳找淘宝3D打印
 
+总成本大概100元左右，制作需要一些编程基础和网络信息搜索能力
+
+## 开发平台
+
+1.vs code+platformio ESP32开发
+
+2.vs2019 lvgl模拟器 GUI界面设计与仿真
+
+3.solidworks 2020 外壳设计
+
+4.立创eda pcb设计
+
+
+
+基本功能均已实现，还没发现更过BUG，如视频所示，但是软硬件还有需要进一步完善的地方，最近比较忙，等过了12月（202112）再进一步完善
+
 # 功能
 
 - 时间天气实时更新并显示
@@ -55,25 +71,43 @@ pcb板嘉立创生产
 # 功能展示
 
 ![image-20211208123937349](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208123937349.png)
+
+
+
 可以使用任意兼容QI标准的无线充电底座为其充电，市面上的充电底座几乎都可以
 
 ![image-20211208124006387](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124006387.png)
+
 主界面显示天气时间温湿度，并且有利用lvgl8.1的gif解码器，有动图效果
-![image-20211208124023647](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124023647.png)S
+
+![image-20211208124023647](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124023647.png)
+
 天气界面
+
+
 
 ![image-20211208124038730](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124038730.png)
 
 课程表界面
 
+
+
 ![image-20211208124054532](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124054532.png)
+
 电脑性能监控界面
+
 ![image-20211208124108739](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124108739.png)
+
 WIFI配网界面
+
 ![image-20211208124121055](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124121055.png)
+
 亮度调节界面
 
+
+
 ![image-20211208124133438](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124133438.png)
+
 蓝牙键盘界面
 
 **界面间通过一个滚动菜单选择**，可以使用模拟器模拟界面
