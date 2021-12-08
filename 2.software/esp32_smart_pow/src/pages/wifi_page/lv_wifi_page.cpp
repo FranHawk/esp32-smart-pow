@@ -22,7 +22,9 @@ void lv_app_load_wifi_scr(void)
     lv_scr_load_anim(wifi_scr, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, true);
 
     /* 不太聪明的配网方式，有可能导致页面不能退出，后续会优化*/
+#if 0
     WiFi.disconnect();
+
     WiFi.mode(WIFI_STA);
     WiFi.beginSmartConfig();
 
@@ -46,4 +48,5 @@ void lv_app_load_wifi_scr(void)
     }
 
     Serial.println("WiFi Connected.");
+#endif
 }
