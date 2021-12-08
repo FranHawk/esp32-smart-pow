@@ -1,4 +1,4 @@
-﻿﻿# 前言
+﻿﻿﻿﻿# 前言
 
 本文的目的是为了给将要制作的ESP32手环做技术储备
 
@@ -29,6 +29,20 @@ PCB文件链接
 
 https://www.bilibili.com/video/BV11P4y137k2/
 
+博客文档
+
+https://blog.csdn.net/weixin_42487906/article/details/121779926
+
+# 制作材料
+
+元器件根据pcb工程里带的bom表买就可以了
+pcb板嘉立创生产
+电池买3.7V锂电池，容量随意
+无线充电模块链接：https://item.taobao.com/item.htm?spm=a1z09.2.0.0.1bdb2e8dDijOkh&id=626465407103&_u=835dsdvlb35a
+屏幕链接：https://item.taobao.com/item.htm?spm=a1z09.2.0.0.1bdb2e8dDijOkh&id=652101077844&_u=835dsdvl181e
+
+外壳找淘宝3D打印
+
 # 功能
 
 - 时间天气实时更新并显示
@@ -40,26 +54,26 @@ https://www.bilibili.com/video/BV11P4y137k2/
 
 # 功能展示
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c237c0907065450f9ddc6258beb8c64f.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_20,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208123937349](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208123937349.png)
 可以使用任意兼容QI标准的无线充电底座为其充电，市面上的充电底座几乎都可以
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5e082f190e5644b1af6c067158e9b842.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_20,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124006387](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124006387.png)
 主界面显示天气时间温湿度，并且有利用lvgl8.1的gif解码器，有动图效果
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d9f577e8731a454d82fc56f78f3ab832.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_13,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124023647](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124023647.png)S
 天气界面
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a28413fe872b4c8d82ec988507ef3017.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_15,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124038730](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124038730.png)
 
 课程表界面
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/91ba93882ed342c8b9313a87cbec43e9.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_17,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124054532](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124054532.png)
 电脑性能监控界面
-![在这里插入图片描述](https://img-blog.csdnimg.cn/43da34b4f54f4020a8e4b6df2354d26a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_17,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124108739](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124108739.png)
 WIFI配网界面
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ce25bc613d6c4d508594fd2dfe758dc4.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_18,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124121055](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124121055.png)
 亮度调节界面
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4649aa3540fb4074bab59f3a3a43c549.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5byg56ue6LGq,size_20,color_FFFFFF,t_70,g_se,x_16)
+![image-20211208124133438](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124133438.png)
 蓝牙键盘界面
 
 **界面间通过一个滚动菜单选择**，可以使用模拟器模拟界面
@@ -221,7 +235,7 @@ WIFI配网界面
 
  
 
-![image-20210906164213161](https://img-blog.csdnimg.cn/img_convert/4481665827ee5830a792415531440723.png)
+![image-20211208124214802](https://raw.githubusercontent.com/FranHawk/blogpic/main/image-20211208124214802.png)
 
 
 
